@@ -4,6 +4,8 @@ class AmountWidget {
   constructor(element) {
     const thisWidget = this;
 
+    console.log(element);
+
     thisWidget.getElements(element);
     thisWidget.value = settings.amountWidget.defaultValue;
     thisWidget.setValue(thisWidget.input.value);

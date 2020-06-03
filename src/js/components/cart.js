@@ -151,7 +151,9 @@ class Cart {
 
     thisCart.products.splice(index, 1);
 
-    cartProduct.dom.wrapper.remove(); //???
+    const removedDOM = cartProduct.dom.wrapper;
+
+    removedDOM.parentNode.removeChild(removedDOM);
 
     thisCart.update();
   }
