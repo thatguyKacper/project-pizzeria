@@ -13,6 +13,8 @@ class AmountWidget extends BaseWidget {
 
     thisWidget.initActions();
 
+    thisWidget.renderValue();
+
     // console.log('amountWidget:', thisWidget);
     // console.log('constructor arguments:', element);
   }
