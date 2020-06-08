@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import AmountWidget from './amountwidget.js';
 import { templates, select, settings, classNames } from '../settings.js';
 import { utils } from '../utils.js';
