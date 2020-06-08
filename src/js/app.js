@@ -84,7 +84,9 @@ const app = {
 
   initCarousel() {
     // eslint-disable-next-line no-unused-vars
+    let i = 0;
     const review = [];
+    const time = 3000;
 
     review[0] = {
       title: 'Nulla',
@@ -103,8 +105,6 @@ const app = {
       content: 'Mauris maximus ipsum sed.',
       author: 'Vel F.',
     };
-
-    let i = 0;
 
     const dots = document.querySelectorAll('.carousel-dots i');
 

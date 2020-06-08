@@ -66,6 +66,7 @@ export const select = {
     peopleAmount: '.people-amount',
     hoursAmount: '.hours-amount',
     tables: '.floor-plan .table',
+    bookingSubmit: '.booking-form [type="submit"]',
   },
   nav: {
     links: '.main-nav a, .home-buttons a',
@@ -117,10 +118,10 @@ export const settings = {
     tableIdAttribute: 'data-table',
   },
   db: {
-    url: '//localhost:3131',
+    url: '//' + window.location.hostname + (window.location.hostname == 'localhost' ? ':3131' : ''),
     product: 'product',
     order: 'order',
-    ooking: 'booking',
+    booking: 'booking',
     event: 'event',
     dateStartParamKey: 'date_gte',
     dateEndParamKey: 'date_lte',
