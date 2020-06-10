@@ -62,6 +62,7 @@
   background: lighten($color-dark, 70%);
   box-shadow: none;
   height: $base-size;
+  background: green;
 
   &__handle {
     box-shadow: none;
@@ -87,6 +88,19 @@
     transition-timing-function: cubic-bezier(0, 1, 0, 1);
     transition: width 100ms;
     box-shadow: none;
+    background: none;
+  }
+  
+  &.full {
+    background: red;
+  }
+
+  &.empty {
+    background: green;
+  }
+
+  &.medium {
+    background: orange;
   }
 }
 

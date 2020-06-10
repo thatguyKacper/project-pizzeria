@@ -100,6 +100,7 @@ class Booking {
 
     thisBooking.updateDOM();
     thisBooking.rangeColourHour();
+    // thisBooking.initTableAvailability();
   }
 
   makeBooked(date, hour, duration, table) {

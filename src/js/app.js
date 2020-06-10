@@ -137,7 +137,7 @@ const app = {
 
     setInterval(() => {
       changeTitle();
-    }, 3000);
+    }, time);
   },
 
   initMenu: function () {
